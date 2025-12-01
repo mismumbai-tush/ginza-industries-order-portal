@@ -4,8 +4,8 @@ import { Plus, Trash2, Save, History, Wand2, Loader2, Printer, MapPin, RefreshCc
 import { format, differenceInDays } from 'date-fns';
 import { BRANCHES, MOCK_ITEMS, UNIT_CATEGORIES, MEASUREMENT_UNITS, SALES_PERSONS, BRANCH_ID_MAPPING } from './constants';
 import { FormMode, OrderFormData, OrderLineItem, SubmittedOrder, SalesPerson, Branch, RegisteredUser, Customer, Item } from './types';
-import { Button } from './components/Button';
-import { Input, Select } from './components/Input';
+import { Button } from './components/Button.tsx';
+import { Input, Select } from './components/Input.tsx';
 import { smartParseOrder } from './services/geminiService';
 import { submitOrderToSheet } from './services/sheetService';
 import { fetchCustomersBySalesPerson, fetchMasterItems, createNewCustomer, saveOrderToDb, bulkUpsertItems, registerUser, loginUser, fetchAllAppUsers, bulkUpsertCustomers, createGhostUser, fetchCustomersByBranchAndSalesPerson, seedTestCustomers } from './services/supabaseService';
