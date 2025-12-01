@@ -1,0 +1,5 @@
+{
+  "name": "Ginza Industries Order Portal",
+  "description": "A modern order entry system with multi-branch routing, Supabase-ready autocomplete, and Gemini AI smart-parsing capabilities.",
+  "requestFramePermissions": []
+}
